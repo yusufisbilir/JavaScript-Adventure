@@ -12,7 +12,7 @@ sayHi2()
 
 //fat arrow
 //not have parameters
-const fatArrow = _ =>{
+const fatArrow = _ =>{  //empty parameter
     console.log("Hi Arrow Function");
 };
 fatArrow()
