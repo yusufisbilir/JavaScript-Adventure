@@ -17,7 +17,7 @@ if (hour < 10) {
 console.log(greeting);
 
 
-// Tenrary if
+// Ternary if
 
 let a = 10, b = 5, c = 0; //long version
 if(a>b){
