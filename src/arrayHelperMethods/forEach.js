@@ -6,7 +6,7 @@ numbers.forEach((item, index)=>{
 });
 
 
-//mine forEach function
+//my forEach function
 logArr(numbers, function(item,index){
     console.log(item,index);
 });
