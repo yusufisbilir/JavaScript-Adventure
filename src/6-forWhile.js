@@ -1,4 +1,5 @@
 // Loops
+
 //for
 for(let i=0; i<2; i++){
     console.log("hello");
@@ -35,6 +36,10 @@ for(let i in cars){
     console.log(cars[i]);
 };
 
+//for of
+for (car of cars){
+    console.log(car);
+}
 
 //forEach
 cars.forEach(function(item){
