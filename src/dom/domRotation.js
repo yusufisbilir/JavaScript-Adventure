@@ -10,6 +10,8 @@ val = list1.childNodes[1].nodeType;
 val = list1.firstElementChild;
 
 
+val = list1.childElementCount;
+
 // parent element
 val = list1.parentElement;
 
