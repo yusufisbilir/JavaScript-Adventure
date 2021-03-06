@@ -10,13 +10,13 @@ val = val.toPrecision(5); //5 digit
 
 val = Math.PI;  // pi number
 
-val = Math.round(2.3);
-val = Math.ceil(2.3);
-val = Math.floor(2,9);
-val = Math.sqrt(64);
-val = Math.pow(2,9);
-val = Math.abs(-10);
-val = Math.max(1,2,3,4,5,7,8);
+val = Math.round(2.3);   // 2
+val = Math.ceil(2.3);    // 3
+val = Math.floor(2.9);   // 2
+val = Math.sqrt(64);     // 8
+val = Math.pow(2.9);     // 512
+val = Math.abs(-10);     // 10
+val = Math.max(1,2,3,4,5,7,8);  //8
 val = Math.random()
 val = Math.floor(Math.random()*100)
 
