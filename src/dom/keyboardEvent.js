@@ -1,17 +1,17 @@
-const myFrom = document.querySelector("#form");
+const myForm = document.querySelector("#form");
 const Name = document.querySelector("#name");
 
-myFrom.addEventListener('submit',eventX);
-myFrom.addEventListener('keydown',eventX);
-myFrom.addEventListener('keypress',eventX);
+myForm.addEventListener('submit',eventX);
+myForm.addEventListener('keydown',eventX);
+myForm.addEventListener('keypress',eventX);
 
-myFrom.addEventListener('focus',eventX);
-myFrom.addEventListener('blur',eventX);
+myForm.addEventListener('focus',eventX);
+myForm.addEventListener('blur',eventX);
 
-myFrom.addEventListener('cut',eventX);
-myFrom.addEventListener('paste',eventX);
+myForm.addEventListener('cut',eventX);
+myForm.addEventListener('paste',eventX);
 
-myFrom.addEventListener('input',eventX);
+myForm.addEventListener('input',eventX);
 
 
 function eventX(e){
