@@ -18,8 +18,10 @@ console.log(greeting);
 
 
 // Ternary if
+let a = 10, b = 5, c = 0; 
 
-let a = 10, b = 5, c = 0; //long version
+
+//long version
 if(a>b){
     c = a-b;
 }else{
