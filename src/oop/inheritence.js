@@ -17,6 +17,7 @@ function Student(name,surname,age,school){
     this.school = school;
 };
 Student.prototype = Object.create(Person.prototype);    //inheritence proto
+Student.prototype.constructor = Student;
 
 Student.prototype.sayHiStudent = function(){
     return `name: ${this.name}, surname ${this.surname}, age: ${this.age}, school: ${this.school}`;
